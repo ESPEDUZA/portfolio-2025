@@ -8,7 +8,7 @@ out/
 .env
 
 # Ignore public images
-public/images/
+
 
 # Ignore Mac system files
 .DS_Store

@@ -23,7 +23,7 @@ export default function Home() {
         </h1>
 
         <div className="flex flex-row flex-wrap items-start gap-x-4 gap-y-4">
-        <motion.div
+          <motion.div
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 0.6, delay: 0.1 }}
