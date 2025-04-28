@@ -16,6 +16,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/design-web/page.js"
     ],
+    "/dessins/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dessins/page.js"
+    ],
     "/photographie/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
