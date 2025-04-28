@@ -1,3 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-module.exports = nextConfig;
+const nextConfig = {
+  experimental: {
+    optimizeCss: true,
+  },
+  images: {
+    formats: ["image/avif", "image/webp"],
+  },
+  output: "standalone",
+};
+
+export default nextConfig;
